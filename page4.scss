@@ -1,7 +1,7 @@
-$blue:#24A3FF;
-$grey:#B3B3BA;
+$blue: #24a3ff;
+$grey: #b3b3ba;
 .colorblue {
-  color:$blue;
+  color: $blue;
   text-decoration: none;
 }
 .colorgrey {
@@ -9,7 +9,7 @@ $grey:#B3B3BA;
   text-decoration: none;
 }
 .h1 {
-  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 42px;
@@ -81,7 +81,7 @@ header {
           border: transparent;
           &:hover {
             border-radius: 8px;
-            background: #F0145A;
+            background: #f0145a;
             transition: 0.6s;
           }
 
@@ -96,8 +96,6 @@ header {
               color: white;
             }
           }
-
-
         }
       }
 
@@ -117,7 +115,6 @@ header {
         font-weight: bold;
         font-size: 16px;
         line-height: 19px;
-
       }
     }
   }
@@ -129,7 +126,7 @@ header {
     font-family: TT Norms, serif;
     font-size: 18px;
     line-height: 21px;
-    color: #FFFFFF;
+    color: #ffffff;
 
     .a_nav {
       font-family: TT Norms, serif;
@@ -137,7 +134,7 @@ header {
       font-size: 18px;
       line-height: 21px;
       text-align: right;
-      color: #24A3FF;
+      color: #24a3ff;
       text-decoration: none;
       border-bottom: 2px solid transparent;
 
@@ -145,9 +142,9 @@ header {
         font-family: TT Norms, serif;
         font-size: 18px;
         line-height: 21px;
-        color: #F0145A;
+        color: #f0145a;
         transition: 0.4s;
-        border-bottom: 2px solid  #F0145A;
+        border-bottom: 2px solid #f0145a;
       }
     }
   }
@@ -177,7 +174,6 @@ header {
     .blockinfo {
       max-width: 641px;
       padding-top: 20px;
-
 
       .divp {
         padding-top: 40px;
@@ -221,7 +217,6 @@ header {
       }
     }
   }
-
 }
 
 .footer {
@@ -232,7 +227,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background: #F5F5FA;
+  background: #f5f5fa;
 
   .a6 {
     font-family: TT Norms, serif;
@@ -251,7 +246,6 @@ header {
     font-size: 16px;
     line-height: 19px;
   }
-
 
   &_top {
     display: flex;
@@ -280,7 +274,6 @@ header {
         opacity: 0.3;
         padding-right: 10px;
       }
-
     }
   }
 
@@ -298,9 +291,8 @@ header {
       font-size: 16px;
       line-height: 19px;
       text-align: right;
-      color: #46466E;
+      color: #46466e;
     }
-
 
     &_middiv {
       padding-left: 10px;
@@ -314,7 +306,6 @@ header {
       &::before {
         content: "●";
         opacity: 0.3;
-
       }
     }
 
@@ -345,7 +336,7 @@ header {
         align-items: center;
         .namelegal {
           width: 80px;
-          display: flex;;
+          display: flex;
         }
 
         .team {
@@ -372,7 +363,7 @@ header {
           position: absolute;
           right: 20px;
           flex-direction: column;
-          gap:6px;
+          gap: 6px;
           padding-top: 25px;
           &_line {
             height: 0;
@@ -381,8 +372,6 @@ header {
           }
         }
       }
-
-
     }
 
     .rightheader {
@@ -390,16 +379,14 @@ header {
       justify-content: space-between;
       order: -1;
 
-
       .topright {
         display: flex;
         gap: 20px;
         align-items: center;
         justify-content: space-between;
 
-
         .fb {
-          display: none
+          display: none;
         }
 
         .od {
@@ -408,10 +395,9 @@ header {
           font-weight: normal;
           font-size: 16px;
           line-height: 19px;
-          color: #FFFFFF;
+          color: #ffffff;
           display: none;
         }
-
 
         .phone::before {
           display: none;
@@ -429,12 +415,11 @@ header {
           font-weight: bold;
           font-size: 16px;
           line-height: 19px;
-          color: #FFFFFF;
+          color: #ffffff;
           text-decoration: none;
         }
       }
     }
-
 
     .bottomright {
       display: none;
@@ -451,7 +436,6 @@ header {
       padding-top: 20px;
       padding-left: 0;
 
-
       .picture {
         width: 335px;
         height: 405px;
@@ -466,7 +450,6 @@ header {
       .blockinfo {
         max-width: 641px;
         padding-bottom: 25px;
-
 
         .divp {
           padding-top: 10px;
@@ -506,8 +489,6 @@ header {
             justify-content: space-between;
             padding-bottom: 15px;
           }
-
-
         }
       }
     }
@@ -518,7 +499,6 @@ header {
     @include direction;
     justify-content: flex-start;
     padding: 20px 0;
-
 
     &_top {
       @include direction;
@@ -534,7 +514,7 @@ header {
         font-size: 16px;
         line-height: 19px;
         text-align: center;
-        color: #B3B3BA;
+        color: #b3b3ba;
       }
 
       &_middiv {
@@ -547,7 +527,6 @@ header {
           opacity: 0;
           padding-right: 0;
         }
-
       }
     }
 
@@ -561,7 +540,6 @@ header {
       left: 50%;
       transform: translateX(-50%);
 
-
       &_middiv {
         padding-bottom: 10px;
         padding-left: 17px;
@@ -572,14 +550,13 @@ header {
         font-size: 16px;
         line-height: 19px;
         text-align: right;
-        color: #46466E;
+        color: #46466e;
 
         &::before {
           content: "";
           opacity: 0;
           padding-right: 0;
         }
-
       }
 
       &_rightdiv {
@@ -590,7 +567,6 @@ header {
           opacity: 0;
           padding-right: 0;
         }
-
       }
     }
   }
