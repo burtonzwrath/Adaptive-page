@@ -46,7 +46,6 @@ header {
       }
     }
   }
-
   .rightheader {
     @include direction;
     justify-content: space-between;
@@ -149,7 +148,6 @@ header {
     }
   }
 }
-
 .container1 {
   padding: 0 60px;
   max-width: 1320px;
